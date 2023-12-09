@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 500px;
+}
+
+/* Membuat header */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 60px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header nav ul li {
+    display: contents;
+    list-style-type: none;
+    line-height: 20px;
+    float: left;
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.logo {
+    font-style: italic;
+    line-height: 60px;
+    margin-right: 50px;
+    font-size: 50px;
+}
+
+/* Membuat box-1 */
+.box-1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 40px;
+    color: white;
+}
+.jumbotron {
+    background-color: #455947;
+}
+
+button {
+    font-size: 25px;
+    height: 40px;
+    width: 180px;
+    background-color: white;
+    border-radius: 35px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.fa-solid {
+    font-size: 20px;
+}
+
+button a {
+    text-decoration: none;
+    line-height: 33px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+button i {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* isi */
+.content-1 img {
+    border-radius: 100px 0;
+    margin-left: 1000px;
+    margin-top: -200px;
+    height: 450px;
+}
+.content-2 img {
+    border-radius: 200px 200px 0 0;
+    height: 350px;
+    margin: -200px 0 50px 80px;
+}
+
+/* membuat box-2 */
+.box-2 {
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.judul {
+    margin-top: 2%;
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.text-wrapper {
+    margin-left: 20px;
+}
+
+.body-content img {
+    height: 200px;
+}
+
+.body-content .card-service {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    margin-top: -60px;
+}
+
+/* membuat box-3 */
+.box-3 {
+    height: 1000px;
+    background-color: #d4bda1;
+}
+
+.box-3 h1 {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.container .dua-terakhir { 
+    margin-left: 25%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+}
+
+.content .text {
+    height: 60px;
+    background-color: #455947;
+    border-radius: 0 0 10px 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.container .content {
+    margin-top: 2%;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.box-3 img {
+    height: 170px;
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* membuat box-4 */
+.box-4 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.box-4 .img-1 {
+    height: 500px;
+}
+
+.box-4 .img-2 {
+    height: 500px;
+}
+
+.box-4 .text {
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: right;
+    text-align: left;
+    color: black;
+    max-width: fit-content;
+}
+
+button .view-more {
+    height: 50px;
+    font-size: 5px;
+    width: 180px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.footer {
+    margin-top: 10%;
+    height: 350px;
+    background-color: black;
+}
+
+.flex-text {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flex-text .left {
+    margin-right: 400px;
+}
+
+.flex-text .right {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 15%;
+}
+
+.sosmed {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.sosmed .inline i {
+    font-size: 30px;
+    padding: 10px 10px 10px 0;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
